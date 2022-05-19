@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contenair{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+.yellow{
+    height: 50vh;
+    width: 100%;
+    background-color: yellow;
+    position: absolute;
+    bottom: 0;
+}
+.black{
+    height: 90vh;
+    width: 90%;
+    background-color: black;
+    position: absolute;
+    margin: auto;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+}
+.jordan{
+    color: yellow;
+}
+.nav{
+    height: 10vh;
+    width: 90%;
+    background-color: white;
+    position: absolute;
+    margin: auto;
+    left: 10px;
+    right: 10px;
+    top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+.img1{
+    height: 30px; width: 30px;
+    display: flex;
+}
+.image{
+    position: absolute;
+    width: 500px;
+    height: 400px;
+    top: -100px;
+}
+.btn{
+    border: none;
+    position: absolute;
+    background-color: yellow;
+    width: 15%;
+    margin: auto;
+    left: 100px;
+    bottom: 150px;
+    height: 10vh;
+    
+}
+.text{
+    border: none;
+    position: absolute;
+    width: 15%;
+    margin: auto;
+    left: 100px;
+    top: 350px;
+}
+.icone{
+    position: absolute;
+    bottom: 30px;
+    right: 10px;
+}
+.contact{
+    position: absolute;
+    margin: auto;
+    bottom: 10px;
+    right: 300px;
+    height: 10vh;
+    width: 50%;
+}
+.ligne{
+    height: 0.4vh;
+    width: 100%;
+    background-color: grey;
+    position: absolute;
+    bottom: 10px;
+    left: 70px;
+}
+.img2{
+    position: absolute;
+    right: 300px;
+    top: 200px;
+}
+.puces{
+    width: 90%;
+    background-color: white;
+    position: absolute;
+    margin: auto;
+    left: 10px;
+    right: 10px;
+    top: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-self: center;
+    padding: auto;
+    border-radius: 5px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+    font-size: 20px;
+    color: yellow;
+}
+i{ 
+    padding: 15px;
+}
